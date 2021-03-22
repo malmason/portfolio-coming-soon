@@ -1,0 +1,99 @@
+/*Universal Selector*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #658ab4;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+.headercontainer {
+  background-color: #658ab4;
+  color: white;
+  border-bottom: 5px solid #faac58;
+}
+header,
+footer {
+  height: 50px;
+  width: 100%;
+  line-height: 60px;
+}
+footer {
+  background-color: #658ab4;
+  color: white;
+}
+li {
+  display: inline;
+  margin: 10px;
+  font-size: 22px;
+}
+form li {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+img {
+  display: block;
+  /* width: 300px;
+  height: 300px; */
+  margin: 20px auto;
+}
+.contact {
+  border-top: 3px solid #faac58;
+  padding-bottom: 5px;
+  margin: 30px auto;
+}
+.formsection {
+  margin: 20px auto;
+  border: 3px solid #99632d;
+  border-radius: 20px;
+  display: block;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  background-color: #faac58;
+}
+label {
+  color: rgb(117, 114, 114);
+  font-weight: bold;
+  font-size: 20px;
+}
+button {
+  color: white;
+  background-color: #658ab4;
+  padding: 5px;
+  width: 100px;
+}
+.contact-me {
+  margin: 5px;
+}
+figcaption {
+  font-size: 20px;
+}
+input {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px dashed #658ab4;
+  width: 200px;
+  resize: none;
+  overflow: hidden;
+}
